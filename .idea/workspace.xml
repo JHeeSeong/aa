@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7165c3a-bfa2-471c-b3fd-2ec88a14ce6f" name="Default Changelist" comment="" />
+    <list default="true" id="e7165c3a-bfa2-471c-b3fd-2ec88a14ce6f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599620950566</updated>
-      <workItem from="1599620952292" duration="1713000" />
+      <workItem from="1599620952292" duration="2138000" />
     </task>
     <servers />
   </component>
@@ -105,6 +107,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2758" y="417" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599627723610" />
+    <state x="2657" y="218" key="Github.UntrackedFilesDialog" timestamp="1599627733134">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2657" y="218" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599627733134" />
     <state x="2588" y="223" width="584" height="594" key="find.popup" timestamp="1599627715075">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
