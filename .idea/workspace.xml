@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7165c3a-bfa2-471c-b3fd-2ec88a14ce6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsung/boot/springboot/service/posts/PostsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsung/boot/springboot/web/PostsApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsung/boot/springboot/web/dto/PostsSaveRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hsung/boot/springboot/web/PostsApiControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,20 +95,9 @@
       <recent name="C:\Users\hsung\OneDrive\바탕 화면\aa\study_spring-boot\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.PostsRepositoryTest.게시글저장_불러오기">
+  <component name="RunManager" selected="Gradle.PostsApiControllerTest.Posts_등록된다">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,12 +121,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HelloResponseDtoTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HelloResponseDtoTest.롬복_기능_테스트" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.hsung.boot.springboot.web.HelloResponseDtoTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.hsung.boot.springboot.web.HelloResponseDtoTest.롬복_기능_테스트&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -153,12 +140,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HelloResponseDtoTest.롬복_기능_테스트" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="PostsApiControllerTest.Posts_등록된다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;com.hsung.boot.springboot.web.HelloResponseDtoTest.롬복_기능_테스트&quot;" />
+        <option name="scriptParameters" value="--tests &quot;com.hsung.boot.springboot.web.PostsApiControllerTest.Posts_등록된다&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -235,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.PostsApiControllerTest.Posts_등록된다" />
         <item itemvalue="Gradle.PostsRepositoryTest.게시글저장_불러오기" />
         <item itemvalue="Gradle.PostsRepositoryTest" />
         <item itemvalue="Gradle.HelloResponseDtoTest.롬복_기능_테스트" />
         <item itemvalue="Gradle.HelloControllerTest.hello가_리턴된다" />
-        <item itemvalue="Gradle.HelloResponseDtoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +245,8 @@
       <workItem from="1599628248187" duration="355000" />
       <workItem from="1599628937066" duration="2040000" />
       <workItem from="1599631034337" duration="3402000" />
-      <workItem from="1599786637228" duration="2619000" />
+      <workItem from="1599786637228" duration="2769000" />
+      <workItem from="1599810226377" duration="1705000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1599628292693</created>
@@ -281,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599634736840</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="spring web layer study">
+      <created>1599803803138</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599803803138</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,17 +285,18 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="jpa test code" />
-    <option name="LAST_COMMIT_MESSAGE" value="jpa test code" />
+    <MESSAGE value="spring web layer study" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring web layer study" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1599788786674">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599788786674" />
-    <state x="2438" y="75" key="CommitChangelistDialog2" timestamp="1599634733917">
+    <state x="2438" y="75" key="CommitChangelistDialog2" timestamp="1599803801026">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2438" y="75" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599634733917" />
+    <state x="2438" y="75" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599803801026" />
     <state x="2758" y="417" key="Github.ShareDialog" timestamp="1599627723610">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -309,34 +305,34 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2657" y="218" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599627733134" />
-    <state width="1877" height="435" key="GridCell.Tab.0.bottom" timestamp="1599634750473">
+    <state width="1877" height="398" key="GridCell.Tab.0.bottom" timestamp="1599813086790">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="435" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599634750473" />
-    <state width="1877" height="435" key="GridCell.Tab.0.center" timestamp="1599634750473">
+    <state width="1877" height="398" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599813086790" />
+    <state width="1877" height="398" key="GridCell.Tab.0.center" timestamp="1599813086790">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="435" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599634750473" />
-    <state width="1877" height="435" key="GridCell.Tab.0.left" timestamp="1599634750473">
+    <state width="1877" height="398" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599813086790" />
+    <state width="1877" height="398" key="GridCell.Tab.0.left" timestamp="1599813086790">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="435" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599634750473" />
-    <state width="1877" height="435" key="GridCell.Tab.0.right" timestamp="1599634750473">
+    <state width="1877" height="398" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599813086790" />
+    <state width="1877" height="398" key="GridCell.Tab.0.right" timestamp="1599813086790">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="435" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599634750473" />
+    <state width="1877" height="398" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599813086790" />
     <state x="2360" y="94" key="SettingsEditor" timestamp="1599630980916">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2360" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599630980916" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599634739628">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599803805661">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599634739628" />
-    <state x="2588" y="223" width="584" height="594" key="find.popup" timestamp="1599627715075">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599803805661" />
+    <state x="2588" y="223" width="584" height="594" key="find.popup" timestamp="1599811284533">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2588" y="223" width="584" height="594" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599627715075" />
+    <state x="2588" y="223" width="584" height="594" key="find.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599811284533" />
     <state x="2543" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1599631733692">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
