@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7165c3a-bfa2-471c-b3fd-2ec88a14ce6f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/study_spring-boot.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/study_spring-boot.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsung/boot/springboot/domain/posts/Posts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsung/boot/springboot/domain/posts/PostsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hsung/boot/springboot/domain/posts/PostsRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsung/boot/springboot/service/posts/PostsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsung/boot/springboot/web/PostsApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hsung/boot/springboot/web/dto/PostsSaveRequestDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hsung/boot/springboot/web/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hsung/boot/springboot/web/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hsung/boot/springboot/web/HelloResponseDtoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hsung/boot/springboot/web/HelloResponseDtoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,15 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -269,7 +257,8 @@
       <workItem from="1599620952292" duration="2138000" />
       <workItem from="1599628248187" duration="355000" />
       <workItem from="1599628937066" duration="2040000" />
-      <workItem from="1599631034337" duration="3358000" />
+      <workItem from="1599631034337" duration="3402000" />
+      <workItem from="1599786637228" duration="2619000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1599628292693</created>
@@ -285,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599628322069</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="jpa test code">
+      <created>1599634736840</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599634736840</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,17 +289,18 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="jpa test code" />
+    <option name="LAST_COMMIT_MESSAGE" value="jpa test code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1599629975811">
+    <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1599788786674">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599629975811" />
-    <state x="2438" y="75" key="CommitChangelistDialog2" timestamp="1599628321466">
+    <state x="2685" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599788786674" />
+    <state x="2438" y="75" key="CommitChangelistDialog2" timestamp="1599634733917">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2438" y="75" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599628321466" />
+    <state x="2438" y="75" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599634733917" />
     <state x="2758" y="417" key="Github.ShareDialog" timestamp="1599627723610">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -312,30 +309,30 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2657" y="218" key="Github.UntrackedFilesDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599627733134" />
-    <state width="1877" height="435" key="GridCell.Tab.0.bottom" timestamp="1599633424869">
+    <state width="1877" height="435" key="GridCell.Tab.0.bottom" timestamp="1599634750473">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="435" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599633424869" />
-    <state width="1877" height="435" key="GridCell.Tab.0.center" timestamp="1599633424868">
+    <state width="1877" height="435" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599634750473" />
+    <state width="1877" height="435" key="GridCell.Tab.0.center" timestamp="1599634750473">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="435" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599633424868" />
-    <state width="1877" height="435" key="GridCell.Tab.0.left" timestamp="1599633424868">
+    <state width="1877" height="435" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599634750473" />
+    <state width="1877" height="435" key="GridCell.Tab.0.left" timestamp="1599634750473">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="435" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599633424868" />
-    <state width="1877" height="435" key="GridCell.Tab.0.right" timestamp="1599633424868">
+    <state width="1877" height="435" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599634750473" />
+    <state width="1877" height="435" key="GridCell.Tab.0.right" timestamp="1599634750473">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="435" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599633424868" />
+    <state width="1877" height="435" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599634750473" />
     <state x="2360" y="94" key="SettingsEditor" timestamp="1599630980916">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2360" y="94" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599630980916" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599628325180">
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1599634739628">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599628325180" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1599634739628" />
     <state x="2588" y="223" width="584" height="594" key="find.popup" timestamp="1599627715075">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
